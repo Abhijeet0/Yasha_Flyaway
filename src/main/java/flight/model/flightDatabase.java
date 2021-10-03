@@ -46,7 +46,6 @@ public class flightDatabase {
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/flight_reservation", "root",
 					"pass@123");
 			String query = "SELECT * FROM flights where from_location=? and to_location=? and flight_date=?";
-
 			PreparedStatement pst = conn.prepareStatement(query);
 			pst.setString(1, from_location);
 			pst.setString(2, to_location);

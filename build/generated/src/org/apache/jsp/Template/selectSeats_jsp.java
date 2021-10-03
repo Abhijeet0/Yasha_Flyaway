@@ -182,7 +182,7 @@ public final class selectSeats_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <div class=\"text-dark-200\">                                \r\n");
       out.write("                                <ul class=\"list-group mb-4\">\r\n");
       out.write("                                    <li class=\"list-group-item d-flex justify-content-between align-items-center\">\r\n");
-      out.write("                                        <i class=\"fas fa-check\" style=\"color: green\">&nbsp </i>Uçuş Seçimi\r\n");
+      out.write("                                        <i class=\"fas fa-check\" style=\"color: green\">&nbsp </i>Flight Selection\r\n");
       out.write("                                    </li>\r\n");
       out.write("                                    <li class=\"list-group-item d-flex justify-content-between align-items-center\">\r\n");
       out.write("                                        <i class=\"fas fa-check\" style=\"color: green\">&nbsp </i>Yolcu Bilgileri\r\n");

@@ -166,11 +166,11 @@ public final class searchFlight_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("                            <div class=\"form-row field\">\r\n");
       out.write("                                <div class=\"col-md-6 mb-3 text-white\">\r\n");
       out.write("                                    <input type=\"text\"  autocomplete=\"off\" id=\"surname\" required/>\r\n");
-      out.write("                                    <label for=\"surname\" title=\"Yolcunun Soyadı\" data-title=\"Yolcunun Soyadı\">\r\n");
+      out.write("                                    <label for=\"surname\" title=\"Passenger's Surname\n"+ "\" data-title=\"Passenger's Surname\">\r\n");
       out.write("                                </div>\r\n");
       out.write("                                <div class=\"col-md-6 mb-3 text-white field\">\r\n");
       out.write("                                    <input type=\"text\" style=\"text-transform: uppercase !important\" maxlength=\"6\" minlength=\"6\" autocomplete=\"off\" id=\"reservationcode\" required/>\r\n");
-      out.write("                                    <label for=\"reservationcode\" title=\"Rezervasyon Kodu (PNR)\" data-title=\"Rezervasyon Kodu (PNR)\">\r\n");
+      out.write("                                    <label for=\"reservationcode\" title=\"Reservation Code (PNR)\" data-title=\"Reservation Code (PNR)\">\r\n");
       out.write("                                </div>\r\n");
       out.write("                            </div>\r\n");
       out.write("                            <div class=\"form-group\">\r\n");

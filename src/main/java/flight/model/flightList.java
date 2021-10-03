@@ -50,13 +50,16 @@ public class flightList {
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/flight_reservation", "root",
 					"pass@123");
 			String query = "Select * from flights where from_location=? and to_location=? and flight_date=?";
+
 			PreparedStatement psmt = conn.prepareStatement(query);
 			psmt.setString(1, from_location);
 			psmt.setString(2, to_location);
 			psmt.setDate(3, flight_date);
 			ResultSet rs = psmt.executeQuery();
+			System.out.println("flight dataaa " + psmt);
 
 			while (rs.next()) {
+
 				flight reh = new flight(rs.getInt("id"), rs.getString("from_location"), rs.getString("to_location"),
 						rs.getDate("flight_date"), rs.getTime("departure_time"), rs.getTime("arrival_time"),
 						rs.getInt("eco_price"), rs.getInt("avantage_price"), rs.getInt("business_price"));

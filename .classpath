@@ -14,5 +14,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/abhijeetgund/Downloads/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/abhijeetgund/Downloads/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="/Users/abhijeetgund/Downloads/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

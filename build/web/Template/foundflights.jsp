@@ -138,7 +138,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <img src="../Assets/flight-panel.png" height="50px" style="color:white;width:260px!important" />
-                    <h1 class="display-2 text-white">Uçuşlarınızı Seçiniz...</h1>
+                    <h1 class="display-2 text-white">Choose Your Flights...</h1>
                 </div>
             </div>
         </div>
@@ -153,16 +153,16 @@
                             <div class="text-dark-200">                                
                                 <ul class="list-group mb-4">
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                       <i class="fas fa-times" style="color: red">&nbsp </i>Uçuş Seçimi
+                                       <i class="fas fa-times" style="color: red">&nbsp </i>Flight Selection
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <i class="fas fa-times" style="color: red">&nbsp </i>Yolcu Bilgileri
+                                        <i class="fas fa-times" style="color: red">&nbsp </i>Passenger Information
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <i class="fas fa-times" style="color: red">&nbsp </i>Koltuk Seçimi
+                                        <i class="fas fa-times" style="color: red">&nbsp </i>Seat Selection
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                       <i class="fas fa-times" style="color: red">&nbsp </i> Ödeme
+                                       <i class="fas fa-times" style="color: red">&nbsp </i> Payment
                                     </li>
                                 </ul>                            
                             </div>

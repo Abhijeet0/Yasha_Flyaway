@@ -137,16 +137,16 @@
                             <div class="text-dark-200">                                
                                 <ul class="list-group mb-4">
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <i class="fas fa-check" style="color: green">&nbsp </i>Uçuş Seçimi
+                                        <i class="fas fa-check" style="color: green">&nbsp </i>Flight Selection
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <i class="fas fa-check" style="color: green">&nbsp </i>Yolcu Bilgileri
+                                        <i class="fas fa-check" style="color: green">&nbsp </i>Passenger Information
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <i class="fas fa-check" style="color: green">&nbsp </i>Koltuk Seçimi
+                                        <i class="fas fa-check" style="color: green">&nbsp </i>Seat Selection
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                       <i class="fas fa-times" style="color: red">&nbsp </i> Ödeme
+                                       <i class="fas fa-times" style="color: red">&nbsp </i>Payment
                                     </li>
                                 </ul>                            
                             </div>

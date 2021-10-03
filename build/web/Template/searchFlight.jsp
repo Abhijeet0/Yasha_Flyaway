@@ -119,11 +119,11 @@
                             <div class="form-row field">
                                 <div class="col-md-6 mb-3 text-white">
                                     <input type="text"  autocomplete="off" id="surname" required/>
-                                    <label for="surname" title="Yolcunun Soyadı" data-title="Yolcunun Soyadı">
+                                    <label for="surname" title="Passenger's Surname" data-title="Passenger's Surname">
                                 </div>
                                 <div class="col-md-6 mb-3 text-white field">
                                     <input type="text" style="text-transform: uppercase !important" maxlength="6" minlength="6" autocomplete="off" id="reservationcode" required/>
-                                    <label for="reservationcode" title="Rezervasyon Kodu (PNR)" data-title="Rezervasyon Kodu (PNR)">
+                                    <label for="reservationcode" title="Reservation Code (PNR)" data-title="Reservation Code (PNR)">
                                 </div>
                             </div>
                             <div class="form-group">

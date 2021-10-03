@@ -163,7 +163,7 @@ public final class bookingSeat_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<body>\r\n");
       out.write("<div class=\"wrapper\">\r\n");
       out.write("  <div class=\"container\">\r\n");
-      out.write("  <h1>Lütfen Koltuk Seçiniz...</h1>\r\n");
+      out.write("  <h1>Please Select Seat...</h1>\r\n");
       out.write("    <div id=\"seat-map\">\r\n");
       out.write("      <div class=\"front-indicator\">Uçak Önü</div>\r\n");
       out.write("    </div>\r\n");
