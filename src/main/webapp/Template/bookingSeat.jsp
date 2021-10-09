@@ -128,7 +128,7 @@ span.seatCharts-legendDescription {
       <ul id="selected-seats">
       </ul>
       Ücret <b>₺<span id="total">0</span></b>
-      <a class="checkout-button" href="flightPayment.jsp">Devam &raquo;</a>
+      <a class="checkout-button" href="flightPayment.jsp">Continue...</a>
       <div id="legend"></div>
     </div>
   </div>

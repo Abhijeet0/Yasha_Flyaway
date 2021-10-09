@@ -1,7 +1,11 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+ pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link type="image/png" rel="icon" size="512x512"
  href="../Assets/flighticon.png">
@@ -116,8 +120,17 @@
 		width: 100%;
 	}
 }
+.gotohome  {
+  background-color: #b71a4c;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
 </style>
-</head>
 <body>
  <div class="main-content">
   <!-- Top navbar -->
@@ -169,8 +182,7 @@
          </li>
          <li
           class="list-group-item d-flex justify-content-between align-items-center">
-          <i class="fas fa-times" style="color: red">&nbsp </i>
-          Payment
+          <i class="fas fa-check" style="color: green">&nbsp </i> Payment
          </li>
         </ul>
        </div>
@@ -191,63 +203,15 @@
           class="card-profile-stats d-flex justify-content-center mt-md-2">
           <div class="card ">
            <div class="card-header">
-            <div class="row">
-             <h3 class="text-xs-center">PAYMENT Details</h3>
-             <img class="img-fluid cc-img"
-              src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+            <div>
+             <h1 class="text-xs-center">Your payment is done successfully</h1>
+             <h1 class="text-xs-center">Thank you for booking with us...</h1>
             </div>
-           </div>
-           <div class="card-block">
-            <form role="form">
-             <div class="row">
-              <div class="col-xs-12">
-               <div class="form-group">
-                <label>CREDIT CARD NUMBER</label>
-                <div class="input-group">
-                 <input type="tel" class="form-control"
-                  placeholder="CREDIT CARD NUMBER" required />
-                 <!-- <span class="input-group-addon"><span class="fa fa-credit-card"</span></span> -->
-                </div>
-               </div>
-              </div>
-             </div>
-             <div class="row">
-              <div class="col-xs-7 col-md-7">
-               <div class="form-group">
-                <label><span class="hidden-xs">END</span><span
-                 class="visible-xs-inline">USE</span> DATE</label> <input
-                 type="tel" class="form-control" placeholder="AA / YY"
-                 required />
-               </div>
-              </div>
-              <div class="col-xs-5 col-md-5 float-xs-right">
-               <div class="form-group">
-                <label>CVV/CVC2</label> <input type="tel"
-                 class="form-control" placeholder="CVV/CVC2" required />
-               </div>
-              </div>
-             </div>
-             <div class="row">
-              <div class="col-xs-12">
-               <div class="form-group">
-                <label>NAME ON THE CARD</label> <input type="text"
-                 class="form-control" placeholder="NAME ON THE CARD"
-                 required />
-               </div>
-              </div>
-             </div>
-             <div class="card-footer">
-              <div class="row">
-               <div class="col-xs-12">
-                <button type="submit" onclick="location.href=bookingsuccess.jsp"
-                 class="btn btn-warning btn-lg btn-block">PAYMENT</button>
-               </div>
-              </div>
-             </div>
-            </form>
            </div>
           </div>
          </div>
+                      <a class="gotohome" href="../index.jsp" class="checkout-button">Goto Homepage...</a>
+         
         </div>
        </div>
       </div>
@@ -257,45 +221,5 @@
   </div>
  </div>
 
- <script>
-        $(document).ready(function() {
-            var panels = $('.user-infos');
-            var panelsButton = $('.dropdown-user');
-            panels.hide();
-
-            //Click dropdown
-            panelsButton.click(function() {
-                //get data-for attribute
-                var dataFor = $(this).attr('data-for');
-                var idFor = $(dataFor);
-
-                //current button
-                var currentButton = $(this);
-                idFor.slideToggle(400, function() {
-                    //Completed slidetoggle
-                    if(idFor.is(':visible'))
-                    {
-                        currentButton.html('<i class="glyphicon glyphicon-chevron-up text-muted"></i>');
-                    }
-                    else
-                    {
-                        currentButton.html('<i class="glyphicon glyphicon-chevron-down text-muted"></i>');
-                    }
-                })
-            });
-
-
-            $('[data-toggle="tooltip"]').tooltip();
-
-            $('button').click(function(e) {
-                e.preventDefault();
-                alert("This is a demo.\n :-)");
-            });
-        });
-        
-        function bas(){
-            window.alert("Payment completed!");
-        }
-    </script>
 </body>
 </html>
