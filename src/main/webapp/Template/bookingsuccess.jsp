@@ -120,15 +120,16 @@
 		width: 100%;
 	}
 }
-.gotohome  {
-  background-color: #b71a4c;
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
+
+.gotohome {
+	background-color: #b71a4c;
+	color: white;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
 }
 </style>
 <body>
@@ -182,7 +183,8 @@
          </li>
          <li
           class="list-group-item d-flex justify-content-between align-items-center">
-          <i class="fas fa-check" style="color: green">&nbsp </i> Payment
+          <i class="fas fa-check" style="color: green">&nbsp </i>
+          Payment
          </li>
         </ul>
        </div>
@@ -204,14 +206,17 @@
           <div class="card ">
            <div class="card-header">
             <div>
-             <h1 class="text-xs-center">Your payment is done successfully</h1>
-             <h1 class="text-xs-center">Thank you for booking with us...</h1>
+             <h1 class="text-xs-center">Your payment is done
+              successfully</h1>
+             <h1 class="text-xs-center">Thank you for booking with
+              us...</h1>
             </div>
            </div>
           </div>
          </div>
-                      <a class="gotohome" href="../index.jsp" class="checkout-button">Goto Homepage...</a>
-         
+         <a class="gotohome" href="../index.jsp" class="checkout-button">Goto
+          Homepage...</a>
+
         </div>
        </div>
       </div>

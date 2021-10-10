@@ -111,6 +111,17 @@
 	font-size: 18px;
 }
 
+.gotobooking {
+ background-color: #b71a4c;
+ color: white;
+ padding: 1em 1.5em;
+ text-decoration: none;
+ text-transform: uppercase;
+ margin-top: 15px;
+ display: flex;
+ justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
 	.columns {
 		width: 100%;
@@ -230,7 +241,8 @@
              <div class="row">
               <div class="col-xs-12">
                <div class="form-group">
-                <label>NAME ON THE CARD</label> <input type="text"
+                <label>NAME ON THE CARD</label> 
+                <input type="text"
                  class="form-control" placeholder="NAME ON THE CARD"
                  required />
                </div>
@@ -239,8 +251,9 @@
              <div class="card-footer">
               <div class="row">
                <div class="col-xs-12">
-                <button type="submit" onclick="location.href=bookingsuccess.jsp"
-                 class="btn btn-warning btn-lg btn-block">PAYMENT</button>
+               <!--  <button type="submit" onclick="location.href=bookingsuccess.jsp"
+                 class="btn btn-warning btn-lg btn-block">PAYMENT</button> -->
+                   <a class="gotobooking" href="bookingsuccess.jsp" class="checkout-button">Payment</a>
                </div>
               </div>
              </div>
